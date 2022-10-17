@@ -7,7 +7,6 @@ const workers = {};
  */
 
 const startWorkers = () => {
-    workers.outbounds = require('./outbounds')();
     workers.playerqueue = require('./playerqueue');
     workers.tradequeue = require('./tradequeue');
 }
